@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "vpsfree-2",
   "os": "Ubuntu 22.04.5 LTS",
   "kernel": "6.8.0-1064-azure",
@@ -9,9 +9,9 @@
   "ssh_port": 22,
   "ssh_user": "vps",
   "ssh_listen": "ok",
-  "public_ip": "4.154.236.225",
-  "tailscale_ip": "100.93.125.108",
-  "tailscale_dns": "runnervmk1d70.tail73435b.ts.net",
+  "public_ip": "",
+  "tailscale_ip": "",
+  "tailscale_dns": "",
   "started_at": "2026-10-19T15:18:55Z",
   "expires_at": "2026-10-19T21:00:55Z",
   "duration_menit": 342,
@@ -24,15 +24,16 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "ok",
-      "ip": "100.93.125.108",
-      "magicdns": "runnervmk1d70.tail73435b.ts.net",
-      "hostname": "runnervmk1d70",
+      "status": "offline",
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama lalu SSH ke user@ip -p 22."
     }
   },
   "handover": {
     "status": "dispatched",
     "at": "2026-10-19T20:41:03Z"
-  }
+  },
+  "stopped_at": "2026-10-19T20:59:24Z"
 }
