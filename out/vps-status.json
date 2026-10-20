@@ -1,6 +1,6 @@
 {
-  "active": false,
-  "hostname": "vpsfree-5",
+  "active": true,
+  "hostname": "vpsfree-6",
   "os": "Ubuntu 22.04.5 LTS",
   "kernel": "6.8.0-1070-azure",
   "cpu_threads": 4,
@@ -9,31 +9,26 @@
   "ssh_port": 22,
   "ssh_user": "vps",
   "ssh_listen": "ok",
-  "public_ip": "",
-  "tailscale_ip": "",
-  "tailscale_dns": "",
-  "started_at": "2026-10-20T08:29:08Z",
-  "expires_at": "2026-10-20T14:11:08Z",
+  "public_ip": "20.118.39.241",
+  "tailscale_ip": "100.93.125.108",
+  "tailscale_dns": "runnervmk1d70.tail73435b.ts.net",
+  "started_at": "2026-10-20T14:11:35Z",
+  "expires_at": "2026-10-20T19:53:35Z",
   "duration_menit": 342,
-  "run_id": "39391302714",
+  "run_id": "39434129299",
   "run_attempt": "1",
-  "run_number": "5",
-  "run_url": "https://github.com/shadoexswalow/NOO/actions/runs/39391302714",
+  "run_number": "6",
+  "run_url": "https://github.com/shadoexswalow/NOO/actions/runs/39434129299",
   "mode": "vpsfree",
   "renewal": "ya",
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "offline",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
+      "status": "ok",
+      "ip": "100.93.125.108",
+      "magicdns": "runnervmk1d70.tail73435b.ts.net",
+      "hostname": "runnervmk1d70",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama lalu SSH ke user@ip -p 22."
     }
-  },
-  "handover": {
-    "status": "dispatched",
-    "at": "2026-10-20T13:52:05Z"
-  },
-  "stopped_at": "2026-10-20T14:09:17Z"
+  }
 }
